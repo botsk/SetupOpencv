@@ -6,4 +6,4 @@ objectFile=` echo "$1" | sed -e 's/\..*//'`
 res="$@ "
 res=` echo "$res" | sed -e 's/^[a-zA-Z0-9\.]*\s//' ` 
 
-result=`g++ $1 \`pkg-config --cflags --libs opencv\` -o $objectFile $res `
+result=`g++ $1 \`pkg-config --cflags --libs opencv\` $res `

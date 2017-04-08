@@ -10,8 +10,10 @@ sudo sh InstallOpencv.sh
 
 How to Compile :
 
-#Default way 
+#Default way
+
 g++ filename.cpp `pkg-config --cflags --libs opencv`
 
 #Using script
+
 cv filename.cpp

@@ -2,11 +2,11 @@
 
 ## How to Install :
 
-git clone https://github.com/botsk/SetupOpencv.git
+git clone https://github.com/botsk/setup-opencv.git
 
-cd SetupOpencv
+cd setup-opencv
 
-sudo sh InstallOpencv.sh
+sudo sh install_opencv.sh
 
 
 ## How to Compile :

@@ -1,4 +1,4 @@
-# SetupOpencv
+# setup-opencv
 
 # How to Install :
 
